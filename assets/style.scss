@@ -1,0 +1,82 @@
+@font-face {
+font-family: "Rubik";
+src: url("assets/fonts/Rubik-Light.ttf");
+}
+
+@font-face {
+font-family: "Rubik";
+src: url("assets/fonts/Rubik-Regular.ttf");
+}
+
+@font-face {
+font-family: "Rubik";
+src: url("assets/fonts/Rubik-Medium.ttf");
+}
+
+@font-face {
+font-family: "Ubuntu";
+src: url("assets/fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("assets/fonts/Ubuntu-Regular.ttf");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,span,p {
+  color: #333333;
+}
+
+
+span, a {
+  font-family: Ubuntu, serif;
+  font-style: normal;
+}
+
+h2 {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+}
+
+h3, p {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: #333333;
+}
+
+@media (max-width: 1920px) {
+  html {
+    //font-size: ;
+  }
+}
+@media (max-width: 1440px) {
+  html {
+    //font-size: ;
+  }
+}
+@media (max-width: 1019px) {
+  html {
+    //font-size: ;
+  }
+}
+@media (max-width: 468px) {
+  html {
+    //font-size: ;
+  }
+}
