@@ -34,7 +34,7 @@ html, body {
   height: 100%;
 }
 
-h1,h2,h3,h4,h5,h6,span,p {
+h1,h2,h3,h4,h5,h6,span,p, a {
   color: #333333;
 }
 
@@ -44,20 +44,13 @@ span, a {
   font-style: normal;
 }
 
-h2 {
+h1, h2, h3, p {
   font-family: Rubik, sans-serif;
   font-style: normal;
-}
-
-h3, p {
-  font-family: Rubik, sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
 
 a, a:hover, a:active, a:focus {
   text-decoration: none;
-  color: #333333;
 }
 
 @media (max-width: 1920px) {
