@@ -9,7 +9,7 @@
       </section>
       <img src="@/assets/images/ImageContainer.png" alt="image">
     </div>
-    <social-networks/>
+    <social-networks @scroll-to="$emit('scroll-to')"/>
   </div>
 </template>
 
@@ -27,6 +27,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 7.3rem;
 }
 
 .hero__container {
