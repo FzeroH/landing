@@ -9,12 +9,12 @@
       </section>
       <img src="@/assets/images/ImageContainer.png" alt="image">
     </div>
-    <social-networks @scroll-to="$emit('scroll-to')"/>
+    <social-networks @scroll-to="$emit('scroll-to')" />
   </div>
 </template>
 
 <script>
-import SocialNetworks from "@/components/hero-zone/SocialNetworks.vue";
+import SocialNetworks from "@/components/SocialNetworks.vue";
 
 export default {
   name: 'HeroZone',
