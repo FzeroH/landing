@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt-link  v-for="(image, index) in images" :key="index" :to="`/${ image.networkName }`">
-      <img :src="require(`assets/images/social_networks/${image.src}`)" :alt="`${ image.networkName }`">
+      <img :src="require(`assets/images/social_networks_black/${image.src}`)" :alt="`${ image.networkName }`">
     </nuxt-link>
     <scroll-button @scroll-to="$emit('scroll-to')"/>
   </div>
