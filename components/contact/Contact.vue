@@ -27,6 +27,7 @@ export default {
     background-color: #333333;
     width: 100%;
     height: fit-content;
+
     h1 {
       position: absolute;
       left: calc(50% - 1279px/2 + 0.5px);
@@ -36,25 +37,28 @@ export default {
       line-height: 33.2rem;
       letter-spacing: 0.1em;
       color: #3A3A3A;
-      &:hover {
-        cursor: default;
-      }
+      z-index: 0;
+      user-select: none;
     }
+
     p, h2{
       color: #ffffff;
       font-weight: 400;
       z-index: 1;
     }
+
     p {
       font-size: 2rem;
       line-height: 2.375rem;
       margin-top: 6.25rem;
     }
+
     h2 {
       margin-top: 1.5rem;
       font-size: 3.375rem;
       line-height: 4rem;
     }
+
     button {
       margin: 5rem 0;
       padding: 1.25rem 2.5rem;
@@ -63,6 +67,7 @@ export default {
       line-height: 2rem;
       color: #363434;
       z-index: 1;
+
       &:hover {
         cursor: pointer;
       }
