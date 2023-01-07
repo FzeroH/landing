@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import ScrollButton from "@/components/hero-zone/ScrollButton.vue";
+import ScrollButton from '@/components/hero-zone/ScrollButton.vue';
 
 export default {
   name: 'SocialNetworks',
-  components: {ScrollButton},
+  components: { ScrollButton },
   data() {
     return {
       images: [
