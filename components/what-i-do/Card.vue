@@ -4,7 +4,7 @@
     <p>{{card.text}}</p>
     <span>
       Read more
-      <img src="" alt="">
+      <arrow/>
     </span>
   </div>
 </template>
@@ -34,8 +34,8 @@ export default {
       line-height: 3.4rem;
       font-weight: 400;
       color: #ffffff;
-      margin-bottom: 20px;
-      max-width: 300px;
+      margin-bottom: 1.25rem;
+      max-width: 18.75rem;
     }
 
     p {
@@ -51,7 +51,7 @@ export default {
       line-height: 1.31rem;
       color: #ffffff;
       padding: 3.75rem 0 2.5rem 0;
-      
+
     }
 
   }
