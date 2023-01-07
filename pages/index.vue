@@ -1,19 +1,20 @@
 <template>
   <div>
-    <Header />
+    <landing-header />
     <hero-zone @scroll-to="scrollTo()"/>
     <about-me />
     <what-i-do />
     <contact />
+    <projects />
+    <hire-me />
+    <landing-footer />
   </div>
 </template>
 
 <script>
-import Contact from "../components/contact/Contact.vue";
 
 export default {
   name: 'IndexPage',
-  components: {Contact},
   methods: {
     scrollTo(){
       window.scroll({
